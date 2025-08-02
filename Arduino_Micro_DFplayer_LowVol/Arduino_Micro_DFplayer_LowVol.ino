@@ -13,7 +13,7 @@ void setup() {
   delay(1000);
 
   byte playTrack2[] = {0x7E, 0xFF, 0x06, 0x06, 0x00, 0x00, 0x09, 0xEF};
-  Serial1.write(playTrack2, sizeof(playTrack1));
+  Serial1.write(playTrack2, sizeof(playTrack2));
   Serial.println("נשלח!");
 }
 
